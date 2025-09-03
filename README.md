@@ -66,7 +66,7 @@ npx cap init
 
 - Web directory: `www` (we will create it next)
 
-### 3. Create Web App Structure
+### 4. Create Web App Structure
 
 - Create the `www` folder
 
@@ -79,19 +79,19 @@ npx cap init
         └── logo-dark.webp
   ```
 
-### 4. Install Android Platform
+### 5. Install Android Platform
 
 ```bash
 npm install @capacitor/android
 ```
 
-### 5. Add Platform To The Project
+### 6. Add Platform To The Project
 
 ```bash
 npx cap add android
 ```
 
-### 5. Build & Copy Web App
+### 7. Build & Copy Web App
 
 Since we are using plain HTML/JS:
 
@@ -99,13 +99,13 @@ Since we are using plain HTML/JS:
 npx cap copy
 ```
 
-### 6. Now Build Your app on Android Studio
+### 8. Now Build Your app on Android Studio
 
 ```bash
 npx cap open android  # Android Studio
 ```
 
-### 7. Build You Apk File following these pics
+### 9. Build You Apk File following these pics
 
 <img src="./www/assets/android-studio-ex.webp" width="50%">
 
@@ -194,13 +194,13 @@ Capacitor.js بيخليك تلفّ الويب أب بتاعك (HTML, CSS, JS) ل
 
 ## خطوات التنفيذ
 
-1. إنشاء مشروع NPM
+### 1. إنشاء مشروع NPM
 
 ```bash
 npm init -y
 ```
 
-2. تثبيت Capacitor
+### 2. تثبيت Capacitor
 
 لـ HTML/CSS/JS إحنا بنستبدل الملفات في فولدر www:
 
@@ -208,7 +208,7 @@ npm init -y
 npm install @capacitor/core @capacitor/cli
 ```
 
-3. تهيئة Capacitor
+### 3. تهيئة Capacitor
 
 ```bash
 npx cap init
@@ -220,7 +220,7 @@ App ID: `com.example.myapp`
 
 Web directory: `www` (هنعمله دلوقتي)
 
-3. إنشاء هيكل الويب أب
+### 4. إنشاء هيكل الويب أب
 
 - اعمل فولدر `www`
 
@@ -233,34 +233,35 @@ Web directory: `www` (هنعمله دلوقتي)
       └── logo-dark.webp
   ```
 
-4. تثبيت منصة أندرويد
+### 5. تثبيت منصة أندرويد
 
 ```bash
 npm install @capacitor/android
 ```
 
-5. إضافة المنصة للمشروع
+### 6. إضافة المنصة للمشروع
 
 ```bash
 npx cap add android
 ```
 
-6. بناء ونسخ الويب أب
+### 7. بناء ونسخ الويب أب
 
 ```bash
 npx cap copy
 ```
 
-7. دلوقتي افتح التطبيق على Android Studio
+### 8. دلوقتي افتح التطبيق على Android Studio
 
 ```bash
 npx cap open android # Android Studio
 ```
 
-8. بناء ملف APK
+### 9. بناء ملف APK
+
    <img src="./www/assets/android-studio-ex.webp" width="50%">
 
-## فين هتلاقي ملف الـ APK
+## هتلاقي ملف الـ APK
 
 ```bash
 "/android/app/build/outputs/apk/debug"
@@ -270,7 +271,7 @@ npx cap open android # Android Studio
 
 ## البداية
 
-- Clone أو نزّل الريبو
+- Clone أو نزل الريبو
 
 - افتح فولدر المشروع
 
