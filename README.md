@@ -1,3 +1,5 @@
+<img src="./HTML CSS JS/assets/PWA-cover.png" width="100%">
+
 # Method 1: Progressive Web App (PWA) - Detailed Implementation
 
 ### What is a PWA?
@@ -187,3 +189,10 @@ Created by <b><a href="https://www.linkedin.com/in/ahmed-sherif-2b6132249/">`Ahm
 ## المطور الجامد جمودة
 
 شيفو <b><a href="https://www.linkedin.com/in/ahmed-sherif-2b6132249/">`Ahmed Sherif`</a></b>
+
+<div align="center">
+ 
+![ayat-dark](https://github.com/user-attachments/assets/916aad76-a56d-4e72-a2de-5f70d5ecde93#gh-dark-mode-only)
+![ayat-light](https://github.com/user-attachments/assets/1ba2bd51-f9b2-4080-b48b-7f6dd9845336#gh-light-mode-only)
+
+</div>
